@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacion de ARIA</title>
+</head>
+<body>
+    <section>
+        <dialog open aria-modal="true">
+            <form class="formulario" action="#" method="post">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" aria-required="true">
+                <label for="edad">Edad</label>
+                <input type="range" id="edad" name="edad" min="0" max="50" aria-required="true" aria-valuemax="50">
+            </form>
+        </dialog>
+    </section>
+</body>
+</html>
