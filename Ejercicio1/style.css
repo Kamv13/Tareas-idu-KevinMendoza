@@ -1,0 +1,16 @@
+.Item{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(130, 198, 243);
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.Item_Container{
+ display: flex;
+ border: 3px solid darkkhaki;
+ background-color: khaki;
+ flex-wrap: wrap;
+ padding: 10px;
+ margin: 10px;
+}
