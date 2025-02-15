@@ -1,0 +1,32 @@
+.ShoppingItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Shopping__row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   }
+.Shopping_Item{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.Shopping_Item img {
+    width: 100px;
+    height: 100px;
+}
+#ShoppingCart {
+    margin: 5px;
+    display: flex;
+    height: 25px;
+    width: 25px;
+}
