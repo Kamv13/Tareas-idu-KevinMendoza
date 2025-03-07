@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto auto;
+    height: 100vh;
+    gap: 10px; /* Adds space between grid items */
+}
+
+.layout__nav {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    background-color: #a3d900;
+    padding: 20px;
+    margin: 10px; /* Adds margin around the element */
+}
+
+.layout__header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #a3d900;
+    padding: 20px;
+    margin: 10px; /* Adds margin around the element */
+}
+
+.layout__article {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #a3d900;
+    padding: 20px;
+    margin: 10px; /* Adds margin around the element */
+}
+
+.layout__ads {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #a3d900;
+    padding: 20px;
+    margin: 10px; /* Adds margin around the element */
+}
+
+.layout__footer {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: #a3d900;
+    padding: 20px;
+    margin: 10px; /* Adds margin around the element */
+}
