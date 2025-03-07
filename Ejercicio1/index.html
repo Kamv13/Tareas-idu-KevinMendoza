@@ -1,88 +1,19 @@
 <!DOCTYPE html>
-<html lang="es"> <!-- Agregar lang para especificar el idioma-->
+<html lang="en">
 <head>
-    <title>Accesibilidad Web - Interfaz del Usuario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssgrid.css">
 </head>
 <body>
-    <div style="background-color: lightblue; padding: 20px;">
-        <div style="font-size: 30px; font-weight: bold;">Guía de Accesibilidad Web</div>
-    </div>
-
-    <div>
-        <!-- Agregar alt de la imagen explicandola-->
-        <img src="https://addaw.org//cdn/admin/assets/images/galeria/SRypBs4xEP7LUMVzbO1o.jpg" width="150" height="150" alt="mujer explicando accesibilidad">
-        <div>Accesibilidad visual en sitios web.</div>
-    </div>
-
-    <div>
-        <span style="font-size: 24px;">Introducción a la Accesibilidad Web</span>
-        <div>
-            <div style="font-size: 16px;">En esta página aprenderás conceptos básicos sobre cómo mejorar la accesibilidad de tus sitios web.</div>
-        </div>
-    </div>
-          <!-- Agregar aria lable para explicar el div-->
-    <div style="padding: 10px; background-color: lightgray;" aria-label="Recursos">
-        <div>
-            <span>Guía completa: </span><span><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" style="text-decoration: none; color: red;">Clic aquí para leer más</a></span>
-        </div>
-        <div>
-            <span><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" style="text-decoration: none; color: blue;">Más recursos sobre accesibilidad</a></span>
-        </div>
-    </div>
-
-    <div>
-         <!-- Agregar arialabelledby para reconocer el tipo de formulario agregando el id al formulario en si-->
-        <div aria-labelledby="formulario de contacto" style="padding: 20px; background-color: lightgreen;">
-            <!-- aplicar el role form para claridad-->
-            <div role="form" id="formulario de contacto" style="font-size: 20px;">Formulario de Contacto sobre Accesibilidad Web</div>
-            <div style="margin: 10px 0;">
-                <input type="text" placeholder="Nombre">
-            </div>
-            <div style="margin: 10px 0;">
-                <input type="email" placeholder="Correo Electrónico">
-            </div>
-            <div style="margin: 10px 0;">
-                <textarea placeholder="Escribe tus preguntas sobre accesibilidad"></textarea>
-            </div>
-            <div style="background-color: blue; color: white; padding: 10px; text-align: center; cursor: pointer;">
-                Enviar
-            </div>
-        </div>
-    </div>
-
-    <div style="margin-top: 20px;">
-        <div style="background-color: pink; padding: 10px;">
-            <div style="font-size: 18px;">Herramientas de Accesibilidad</div>
-            <div>
-                <div>
-                    <!-- agregar alt para descripcion de la imagen-->
-                    <img alt="imagen de lector de pantalla" src="https://addaw.org//cdn/admin/assets/images/galeria/SRypBs4xEP7LUMVzbO1o.jpg" width="100" height="100">
-                    <span>Lector de Pantalla</span>
-                    <div style="background-color: orange; padding: 5px; cursor: pointer;">Descargar</div>
-                </div>
-                <div>
-                    <!-- agregar alt para descripcion de la imagen-->
-                    <img alt="Imagen de reviso de contraste" src="https://addaw.org//cdn/admin/assets/images/galeria/SRypBs4xEP7LUMVzbO1o.jpg" width="100" height="100">
-                    <span>Contrast Checker</span>
-                    <div style="background-color: orange; padding: 5px; cursor: pointer;">Descargar</div>
-                </div>
-                <div>
-                    <!-- agregar alt para descripcion de la imagen-->
-                    <img alt="imagen de validador WCAG" src="https://addaw.org//cdn/admin/assets/images/galeria/SRypBs4xEP7LUMVzbO1o.jpg" width="100" height="100">
-                    <span>Validador WCAG</span>
-                    <div style="background-color: orange; padding: 5px; cursor: pointer;">Descargar</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div style="background-color: #333; color: white; padding: 20px; margin-top: 40px;">
-        <div style="font-size: 14px;">© 2024 Accesibilidad Web - Interfaz del Usuario</div>
-        <div style="font-size: 14px;">Promoviendo la inclusión digital</div>
-        <div>
-            <span><a href="https://accesibilidad.com/privacidad" style="color: white;">Política de Privacidad</a></span> | 
-            <span><a href="https://accesibilidad.com/terminos" style="color: white;">Términos y Condiciones</a></span>
-        </div>
-    </div>
+    <div class="layout">
+        <div class="layout__header">A</div>
+        <div class="layout__sidebar-left">C</div>
+        <div class="layout__sidebar-right">E</div>
+        <div class="layout__main layout__main--b">B</div>
+        <div class="layout__main layout__main--d">D</div>
+        <div class="layout__footer">F</div>
+    
 </body>
 </html>
