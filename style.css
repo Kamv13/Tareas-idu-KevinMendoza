@@ -9,3 +9,7 @@
   background-color:   #278a2d;
   font-weight: bold;
 }
+.pizza-card__price-value {
+    display: inline-block;
+    margin-left: 2rem;
+}
