@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 
 
 </head>
@@ -16,21 +16,32 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card pizza-card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top pizza-card__img" alt="Delicious Pizza 1" />
+              <img src="/Assets/PH0016.jpg" class="card-img-top pizza-card__img p-4" alt="Delicious Pizza 1" />
               <div class="card-body pizza-card__body">
-                <h5 class="card-title pizza-card__title">Pizza Card 1</h5>
+                <h5 class="card-title pizza-card__title ">HUT CHEESE MEDIANA</h5>
                 <p class="card-text pizza-card__text">
-                  Deliciosa pizza de pepperoni con queso mozzarela
+                  Deliciosa pizza hut cheese en presentacion de cuatro porciones cargadas con queso mozzarella
                 </p>
-                <p class="pizza-card__price">PRICE: $10.00</p>
-                <div class="pizza-card__quantity">
-                  <label for="quantity1">Quantity:</label>
-                  <input type="number" id="quantity1" name="quantity" min="1" value="1" />
-                </div>
-                <a href="#" class="btn btn-primary pizza-card__button">Order Now</a>
+                <p class="pizza-card__price">DESDE: </p>
+            <div class="pizza-card__controls d-flex align-items-center justify-content-between">
+              <div class="pizza-card__quantity d-flex align-items-center">
+                <button 
+                  class="btn btn-outline-secondary pizza-card__quantity-btn pizza-card__quantity-btn--minus" 
+                  aria-label="Decrease quantity">
+                  &minus;
+                </button>
+                <span class="pizza-card__quantity-value mx-2">1</span>
+                <button 
+                  class="btn btn-outline-secondary pizza-card__quantity-btn pizza-card__quantity-btn--plus" 
+                  aria-label="Increase quantity">
+                  &plus;
+                </button>
               </div>
+              <a href="#" class="btn btn-primary pizza-card__button">Ordenar</a>
             </div>
           </div>
+        </div>
+      </div>
     
           
           
