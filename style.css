@@ -4,3 +4,8 @@
     color: red;
     font-weight: bold;
 }
+
+.pizza-card__button {
+  background-color:   #278a2d;
+  font-weight: bold;
+}
