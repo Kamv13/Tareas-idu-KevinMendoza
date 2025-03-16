@@ -13,3 +13,7 @@
     display: inline-block;
     margin-left: 2rem;
 }
+.pizza-card__quantity-btn {
+ border-radius: 10rem;  
+
+}
