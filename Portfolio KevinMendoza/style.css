@@ -75,7 +75,14 @@ body{
   border-radius: 8px;
 }
 
-.site-footer__img {
-  height: 20px;
-  width: 20px;
+.site-footer-social__img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.site-footer__social a:hover .site-footer__img {
+  box-shadow: 0 0 0 2px #00008B; 
 }
